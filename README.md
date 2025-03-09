@@ -1,41 +1,20 @@
-# ohyoonsik.github.io
-# 20221179
-This is an H1
-=============
-This is an H2
-------------
-# This is a H1
-## This is a H2
-### This is a H3
-#### This is a H4
-##### This is a H5
-###### This is a H6
-> This is a first blockqute
-> >this is a second blockqute
-> > > this is a third blockqute
-> > > >  # this is a H1
-1. 첫번째
-2. 두번째
-3. 세번째
-
-* 빨강
-   + 녹색
-       - 파
-
-This is a normal paragraph:
-
-    This is a code block.
-    
-end code block.
-
-* * *
-
 <!DOCTYPE html>
 <html>
-</head>
 <body>
-
-<h2>HTML Table</h2>
+<h1>web programing home work2-1</h1>
+  <p>My first paragraph. oys</p>
+<p>HTML은 Hyper Text Markup Language의 약자입니다.
+HTML은 웹 페이지를 만드는 표준 마크업 언어입니다.
+HTML은 웹 페이지의 구조를 설명합니다
+HTML은 일련의 요소로 구성됩니다.
+HTML 요소는 브라우저에 콘텐츠를 표시하는 방법을 알려줍니다.
+HTML 요소는 "이것은 제목입니다", "이것은 문단입니다", "이것은 링크입니다" 등과 같이 콘텐츠에 라벨을 지정합니다.</p>
+<ul>
+    <li>html</li>
+    <li>web</li>
+    <li>programing</li>
+  </ul>  
+<h2>web programing home work2-2</h2>
 
 <table>
   <tr>
@@ -74,6 +53,24 @@ end code block.
     <td>Italy</td>
   </tr>
 </table>
+
+  <h3>web programing home work2-3</h3>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+</style>
+  <h4>web programing home work2-4</h4>
 
 </body>
 </html>
