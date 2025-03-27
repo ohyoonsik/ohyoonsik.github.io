@@ -9,3 +9,18 @@ Descendant combinator (space) <br>
 Child combinator (>) <br>
 Next sibling combinator (+) <br>
 Subsequent-sibling combinator (~) <br>
+[title~="flower"] { <br>
+  border: 5px solid yellow; <br>
+}<br>
+~=는 특정 단어가 들어가있는 오브젝트에 영향을 준다 타이틀 단어 사이에 블랭크만 있어야 인식 가능 <br>
+<교수님 노트> <br>
+The [attribute="value"] selector is used to select elements with a specified attribute and value. <br>
+The [attribute~="value"] selector is used to select elements with an attribute value containing a specified word.<br> ~= 기호로 작성된 속성 선택자는 하이픈 -, 언더바_, 공백없이 작성된 합성어는 선택이 되지 않음.<br> The example above will match elements with title="flower", title="summer flower", and title="flower new", but not title="my-flower" or title="flowers".<br>
+
+
+The [attribute|="value"] selector is used to select elements with the specified attribute, whose value can be exactly the specified value, or the specified value followed by a hyphen (-).<br> [속성명]이 일치하고, [속성값]이 특정 접두사로 시작하는 요소를 선택자로 지정합니다.(글자가 붙어있으면 불가능)<br>
+The [attribute^="value"] selector is used to select elements with the specified attribute, whose value starts with the specified value. (형태 상관없음)<br>
+
+
+The [attribute$="value"] selector is used to select elements whose attribute value ends with a specified value.<br>
+The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.<br>
