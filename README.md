@@ -9,7 +9,7 @@ Descendant combinator (space) <br>
 Child combinator (>) <br>
 Next sibling combinator (+) <br>
 Subsequent-sibling combinator (~) <br>
-[title~="flower"] { <br>
+[title물결="flower"] { <br>
   border: 5px solid yellow; <br>
 }<br>
 "물결="는 특정 단어가 들어가있는 오브젝트에 영향을 준다 타이틀 단어 사이에 블랭크만 있어야 인식 가능 <br>
