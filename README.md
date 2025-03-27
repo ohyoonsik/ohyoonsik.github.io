@@ -12,7 +12,7 @@ Subsequent-sibling combinator (~) <br>
 [title~="flower"] { <br>
   border: 5px solid yellow; <br>
 }<br>
-"~="는 특정 단어가 들어가있는 오브젝트에 영향을 준다 타이틀 단어 사이에 블랭크만 있어야 인식 가능 <br>
+"물결="는 특정 단어가 들어가있는 오브젝트에 영향을 준다 타이틀 단어 사이에 블랭크만 있어야 인식 가능 <br>
 <교수님 노트> <br>
 The [attribute="value"] selector is used to select elements with a specified attribute and value. <br>
 The [attribute~="value"] selector is used to select elements with an attribute value containing a specified word.<br> ~= 기호로 작성된 속성 선택자는 하이픈 -, 언더바_, 공백없이 작성된 합성어는 선택이 되지 않음.<br> The example above will match elements with title="flower", title="summer flower", and title="flower new", but not title="my-flower" or title="flowers".<br>
