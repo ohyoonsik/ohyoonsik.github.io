@@ -24,3 +24,28 @@ The [attribute^="value"] selector is used to select elements with the specified 
 
 The [attribute$="value"] selector is used to select elements whose attribute value ends with a specified value.<br>
 The [attribute*="value"] selector is used to select elements whose attribute value contains a specified value.<br>
+
+<?php
+function foo(&$str) {
+   $str .= "world...";
+}
+   
+function swap(&$a, &$b) {
+   $temp = $b;
+   $b = $a;
+   $a = $temp;
+}
+   
+$a = 10;
+$b = 15;
+echo("\$a : $a - \$b : $b<br>");
+   
+swap($a,$b);
+echo("\$a : $a - \$b : $b<br>");
+   
+$str = "Hello! ";
+echo("$str<br>");
+foo($str);
+echo("$str<br>");   
+?>
+&위치 주목 시험출제
