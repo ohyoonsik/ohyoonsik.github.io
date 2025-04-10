@@ -4,8 +4,8 @@
 [**homework2-3**](https://ohyoonsik.github.io/homework2-3.html) <br>
 [**homework2-4**](https://ohyoonsik.github.io/homework2-4.html) <br>
 [**css_demo**](https://ohyoonsik.github.io/css_demo.html) <br>
-[**homework3-1**](https://ohyoonsik.github.io/homework3-1.pnp) <br>
-[**homework3-2**](https://ohyoonsik.github.io/homework3-2.pnp) <br>
+[**homework3-1**](https://ohyoonsik.github.io/homework3-1.png) <br>
+[**homework3-2**](https://ohyoonsik.github.io/homework3-2.png) <br>
 중간고사 w3 combinators 자손 문제 나옴 <br>
 Descendant combinator (space) <br>
 Child combinator (>) <br>
