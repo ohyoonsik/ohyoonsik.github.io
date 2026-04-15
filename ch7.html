@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            overflow: hidden;
+            width: 1080px;
+            margin: 0 auto;
+            margin-bottom: 8px;
+        }
+        .left{
+            float: left;
+            width: 740px; 
+            height: 428px;
+            background-color: red;
+        }
+        .right{
+            float: right;
+            width: 332px;
+            height: 428px;
+            background-color: blue;
+        }
+        ul.gnb{
+            float: left;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 0px;
+            padding-right: 0px;
+            background-color: green;
+        }
+        ul.gnb > li{
+            padding-left: 16px;
+            list-style-type: none;
+            float: left;
+        }
+        ul.gnb > li:first-child{
+            padding: 0px;
+        }
+        ul.rank{
+            float: right;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 0px;
+            background-color: yellow;
+        }
+        ul.rank > li{
+            list-style-type: none;
+        }
+        .footer{
+            float: right;
+            height: 80px;
+            width: 1080px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Logo</h1>
+    </div>
+
+    <div class="container">
+        <ul class="gnb">
+            <li>메일</li>
+            <li>카페</li>
+            <li>블로그</li>
+            <li>쇼핑</li>
+            <li>사전</li>
+            <li>뉴스</li>
+            <li>증권</li>
+            <li>부동산</li>
+            <li>지도</li>
+        </ul>
+        <ul class="rank">
+            <li>실시간 검색순위</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+
+    <div class="container">
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
