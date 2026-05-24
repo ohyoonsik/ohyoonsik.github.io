@@ -121,19 +121,21 @@ function renderProducts() {
     productGrid.appendChild(card);
 
     const button = card.querySelector(".product-btn");
-   /* let count = 0;
+    let count = 0;
     let button-cart = card.querySelector(".product-cart");
-    let countSpan = document.getElementById("count"); */
+    let countSpan = document.getElementById("count"); 
     
 
     button.addEventListener("click", () => {
         alert("준비중인 상품입니다.");
-    });
+    })
 
-   /* button-cart.onclick= function () {
+    button-cart.onclick= function () {
         count++;
         countSpan.textContent = ":" + count;
-  });*/
+    }
+    
+  });
 
 }
 
