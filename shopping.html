@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS 연결 -->
+  <link rel="stylesheet" href="style.css" />
+
+  <title>동서 스토어</title>
+</head>
+<body>
+
+  <!-- 전체 페이지 -->
+  <div class="app">
+
+    <!-- 상단 메뉴 -->
+    <header class="header">
+      <h1 class="logo">동서 스토어</h1>
+
+      <nav class="menu">
+        <span>상품목록</span>
+        <span>인기상품</span>
+        <span>고객센터</span>
+        <span>장바구니<span id="count">:0</span></span>
+      </nav>
+    </header>
+
+    <!-- 메인 영역 -->
+    <main class="container">
+
+      <!-- 제목 -->
+      <section class="title-box">
+        <h2>상품 목록</h2>
+        <p>동서 스토어의 인기 상품입니다.</p>
+      </section>
+
+    <!-- 정렬 선택 -->
+    <section class="sort-box">
+
+        <!-- 상품 검색 -->
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="상품 검색"
+        />
+
+        <!-- 가격 정렬 -->
+        <select id="sortSelect">
+            <option value="default">기본 정렬</option>
+            <option value="low">낮은 가격순</option>
+            <option value="high">높은 가격순</option>
+        </select>
+
+    </section>
+
+      <!-- 상품 목록 -->
+      <section id="productGrid" class="product-grid">
+
+      </section>
+
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+      <h3>동서 스토어</h3>
+
+      <p>웹프로그래밍 쇼핑몰 프로젝트</p>
+
+      <div class="footer-info">
+        <span>고객센터 010-1234-5678</span>
+        <span>평일 10:00 - 18:00</span>
+      </div>
+
+      <p class="copyright">
+        © 2026 DONGSEO STORE
+      </p>
+    </footer>
+
+  </div>
+
+  <!-- JS 연결 -->
+  <script src="script.js"></script>
+
+</body>
+</html>
