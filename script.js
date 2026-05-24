@@ -109,6 +109,10 @@ function renderProducts() {
                 상품 보기
             </button>
 
+            <button class="product-cart">
+                장바구니 추가
+            </button>
+
         </div>
 
     `;
