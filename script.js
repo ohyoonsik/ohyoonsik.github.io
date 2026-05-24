@@ -121,8 +121,10 @@ function renderProducts() {
     productGrid.appendChild(card);
 
     const button = card.querySelector(".product-btn");
-    let button-cart = card.queryselector(".product-cart");
     let count = 0;
+    let button-cart = card.querySelector(".product-cart");
+    let countSpan = document.getElementById("count");
+    
 
     button.addEventListener("click", () => {
         alert("준비중인 상품입니다.");
@@ -130,7 +132,7 @@ function renderProducts() {
 
     button-cart.onclick= function () {
         count++;
-        countSpan.textContent = count
+        countSpan.textContent = ":" + count;
   });
 
 }
