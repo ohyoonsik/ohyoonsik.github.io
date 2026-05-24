@@ -156,6 +156,15 @@ body {
 
 }
 
+/* 장바구니 버튼*/
+.product-btn {
+
+  padding: 10px 14px;
+
+  cursor: pointer;
+
+}
+
 /* 푸터 */
 .footer {
 
