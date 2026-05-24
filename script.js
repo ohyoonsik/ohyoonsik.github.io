@@ -122,7 +122,7 @@ function renderProducts() {
 
     const button = card.querySelector(".product-btn");
     let count = 0;
-    let button-cart = card.querySelector(".product-cart");
+    let button-cart = card.querySelector(".product-cart");F
     let countSpan = document.getElementById("count");
     
 
