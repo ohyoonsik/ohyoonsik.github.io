@@ -128,12 +128,12 @@ function renderProducts() {
 
     button.addEventListener("click", () => {
         alert("준비중인 상품입니다.");
-    })
+    });
 
-    button-cart.onclick= function () {
+   /* button-cart.onclick= function () {
         count++;
         countSpan.textContent = ":" + count;
-  });
+  });*/
 
 }
 
