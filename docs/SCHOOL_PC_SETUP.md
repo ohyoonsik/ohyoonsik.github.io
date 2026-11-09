@@ -221,3 +221,5 @@ python -m pip check
 자세한 내용은 지원 담당자에게 문의하세요.
 
 (genmixlab) C:\Users\U702 -22\GenMixLab>
+
+Code Integrity determined that a process (\Device\HarddiskVolume3\Windows\System32\cmd.exe) attempted to load \Device\HarddiskVolume3\Users\U702 -22\miniconda3\envs\genmixlab\python.exe that did not meet the Enterprise signing level requirements or violated code integrity policy (Policy ID:{0283ac0f-fff1-49ae-ada1-8a933130cad6}).
