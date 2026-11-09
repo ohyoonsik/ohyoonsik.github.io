@@ -205,3 +205,19 @@ python -m pip check
 - [협업 가이드](https://github.com/ohyoonsik/GenMixLab/blob/develop/docs/GUIDE.md)
 
 이 안내의 작성 기준일은 2026년 11월 9일입니다. 설치 명령과 점검 기대값을 안내하며 학교 PC에서 수행한 결과는 팀 실행 기록에 남깁니다.
+
+(base) C:\Users\U702 -22\GenMixLab>conda activate genmixlab
+
+(genmixlab) C:\Users\U702 -22\GenMixLab>python --version
+'C:\Users\U702 -22\miniconda3\envs\genmixlab\python.exe' 조직의 Device Guard 정책에 의해 차단되었습니다.
+자세한 내용은 지원 담당자에게 문의하세요.
+
+(genmixlab) C:\Users\U702 -22\GenMixLab>python -c "import sys; print(sys.executable)"
+'C:\Users\U702 -22\miniconda3\envs\genmixlab\python.exe' 조직의 Device Guard 정책에 의해 차단되었습니다.
+자세한 내용은 지원 담당자에게 문의하세요.
+
+(genmixlab) C:\Users\U702 -22\GenMixLab>python -m pip --version
+'C:\Users\U702 -22\miniconda3\envs\genmixlab\python.exe' 조직의 Device Guard 정책에 의해 차단되었습니다.
+자세한 내용은 지원 담당자에게 문의하세요.
+
+(genmixlab) C:\Users\U702 -22\GenMixLab>
